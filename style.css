@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark-mode {
+    background-color: #FFE8B5;
+    color: white;
+}
+
+/* NAVBAR EDITS */
+#navbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #FFE8B5;
+    border-bottom: solid 1px #EBD4A1;
+    
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+#navbar ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #6c6999;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+#navbar ul li a:hover {
+    background-color: #f8dca0;
+    color: #4f4a8e;
+    box-shadow: 0 0 10px #6c6999;   
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+
+
+/* NAVBAR LINKS EDITS */
+.active, .navlinks:hover {
+    background-color: #f8dca0;
+    color: white;
+}
+
+
+/* HOME SECTION EDITS */
+.home-section {
+    display: flex;
+    align-items: center;
+    
+}
+
+#home-smallheading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: 5%;
+    margin-left: 21%;
+    color: #b9b5e2;
+}
+
+#home-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 16%;
+    color: #4f4a8e;
+    
+}
+
+.home-image {
+    height:36%;
+    width: 36%;  
+    margin-left: 30%;
+    margin-top: 9%;
+}
+
+
+#home-button{
+   margin-left: 23%;
+}
+
+
+/* ABOUT SECTION EDITS */
+#about-section{
+    display: flex;
+    background-color:  white;
+}
+
+#about-paragraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 6%;
+    font-size: x-large;
+    text-align: left;
+    letter-spacing: 4px;
+    color: #4f4a8e;
+    line-height: 2;
+}
+
+#about-image{
+    width: 30%;
+    height: 20%;
+    margin-top: 4%;
+    margin-right: 4%;
+    border: white solid;
+}
+
+
+/* RESUME SETION EDITS */
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.resume-card {
+    width: 340px;
+    height: 255px;
+    box-shadow: 5px 5px 20px #c08e32;
+}
+
+.card-headers{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 2px;
+    border: solid ;
+}
+
+.card-paragraphs{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-top: 8%;
+    letter-spacing: 2px;
+    color: #4f4a8e;
+}
+
+#education{
+    margin-top: 5%;
+}
+
+#skills{
+    margin-top: 30%;
+
+}
+
+#tech{
+    margin-top: 5%;
+}
+
+#marquee-tag{
+    color: #c03232;
+}
+
+
+/* REACHME SECTION EDITS */
+#reachme-section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+#reach-header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    text-align: right;
+    color: #4f4a8e;
+    margin-left: 90%;
+
+}
+
+#reach-image{
+    height:36%;
+    width: 36%; 
+    margin-top: 50%;    
+}
+
+
+#name{
+    width: 100%;
+    height: 100%;
+    margin-left: 30%;
+}
+
+#instagram{
+    width: 25%;
+    margin-top: 100%;
+}
+
+#button{
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+#instagram-header{
+    color: #0c5252;
+    font-size: larger;
+}
+
+#github{
+    width: 25%;
+    margin-top: 100%;
+}
+
+#github-header{
+    color: #0c5252;
+    font-size: larger;
+}
+
+#linkedin{
+    width: 25%;
+    margin-top: 100%;
+}
+
+#linkedin-header{
+    color: #0c5252;
+    font-size: larger;
+   
+}
+
+#gmail{
+    width: 25%;
+    
+    margin-top: 100%;
+}
+
+#gmail-header{
+    color: #0c5252;
+    font-size: larger;
+}
+

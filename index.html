@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Home">
+        <nav id="navbar">
+            <ul id="menu">
+                <li><a href="#Home" class="navlinks active">Home</a></li>
+                <li><a href="#AboutMe" class="navlinks">About Me</a></li>
+                <li><a href="#Resume" class="navlinks">Resume</a></li>
+                <li><a href="#ReachMe" class="navlinks">Reach Me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="home-section">
+        <div>
+            <button onclick="myFunction()" id="home-button"><img src="idea.jpg" height="30" width="30"></button>
+            <h6 id="home-smallheading">UI / UX DEVELOPER + REACT DEVELOPER</h6>
+            <h1 id="home-heading">Mitchelle <br> Wasike</h1>
+        </div>
+        <img src="my_animation.jpg" class="home-image">
+        <img src="heart.gif">
+    </section>
+    <section class="portions" id="about-section">
+        <div id="AboutMe">
+            <p id="about-paragraph">
+                I am Mitchelle Wasike, a UI / UX developer currently enrolled at Power Learn Project learning more about
+                Software Development. Across Software Development I am
+                covering four modules i.e Pyhton Programming, Dart Programming, Database Programming and Web Technology.
+                At the intersections of Web Technology and UI design, I take pride in building applications that help
+                make the world a better place. I also enroll in a music orchestra where I am able to play different
+                musical instrunments i.e saxophone and clarinet. Aside from this I also play soccer together with a team
+                of passionate ladies were we thrive to be better and work as a team. I believe in myself and trust the
+                process.
+            </p>
+        </div>
+        <img id="about-image" src="skills.jpg">
+    </section>
+    <section class="portions">
+        <div id="Resume">
+        </div>
+        <div class="resume-container">
+            <div class="resume-card" id="education">
+                <h4 class="card-headers">EDUATION</h4>
+                <p class="card-paragraphs">
+                    1. <b>Certified</b> Kenya Primary Education. (2017) <br> <br>
+                    2. <b>Certified</b> Kenya Secondary Education. (2022) <br> <br>
+                    <marquee scrolldelay="1" id="marquee-tag">* Commence University studies in September. (2022)
+                    </marquee>
+                </p>
+            </div>
+            <div class="resume-card" id="skills">
+                <h4 class="card-headers">SKILLS</h4>
+                <p class="card-paragraphs">
+                    1. Proficiency with Python <br>
+                    2. Proficiency with Dart <br>
+                    3. Proficiency with HTML<br>
+                    4. Proficiency with CSS <br>
+                    5. Proficiency with JavaScript <br>
+                    6. Proficiency with Django Frameworks <br>
+                    7. Proficiency with SQL
+                </p>
+            </div>
+            <div class="resume-card" id="tech">
+                <h4 class="card-headers">TECH COURSES</h4>
+                <p class="card-paragraphs">
+                    1. Enrolled in a Bootcamp at Moringa School.<br> <br>
+                    2. Currently enrolled at Power Learn Project.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="portions" id="reachme-section">
+        <div id="ReachMe">
+            <img src="name.gif" id="name">
+        </div> <br>
+        <img id="reach-image" src="selfy.png">
+        <button id="button" onclick="window.location.href='https://www.instagram.com/waasike/'"><img src="instagram.jpg"
+                id="instagram">
+            <h5 id="instagram-header">INSTAGRAM</h5>
+        </button>
+        <button id="button" onclick="window.location.href='https://github.com/waasike'"><img src="github.jpg"
+                id="github">
+            <h5 id="github-header">GITHUB</h5>
+        </button>
+        <button id="button"
+            onclick="window.location.href='https://www.linkedin.com/in/mitchelle-wasike-62b99123b/'"><img
+                src="linkedin.jpg" id="linkedin">
+            <h5 id="linkedin-header">LINKEDIN</h5>
+        </button>
+        <button id="button" onclick="window.location.href='mailto: mitchellewasikee@gmail.com'"><img src="gmail.jpg"
+                id="gmail">
+            <h5 id="gmail-header">GMAIL</h5>
+        </button>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
